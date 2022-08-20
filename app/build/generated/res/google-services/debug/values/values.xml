@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">616605926314-i3kgqvvppsb5ivs61lkgc3do8hb6dnfq.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://roomly-666-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">616605926314</string>
+    <string name="google_api_key" translatable="false">AIzaSyBSpuP37_w2DpJ8NfnqzmNieallqz44_0A</string>
+    <string name="google_app_id" translatable="false">1:616605926314:android:2ae8367970ab928974e1d3</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBSpuP37_w2DpJ8NfnqzmNieallqz44_0A</string>
+    <string name="google_storage_bucket" translatable="false">roomly-666.appspot.com</string>
+    <string name="project_id" translatable="false">roomly-666</string>
+</resources>
