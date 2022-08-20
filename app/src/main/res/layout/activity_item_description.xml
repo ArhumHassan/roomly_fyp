@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:id="@+id/linear_layout"
+    android:layout_height="match_parent"
+    tools:context=".Item_description"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/relative_design"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="38dp"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:id="@+id/imagebtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/shop_cart">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/count_tv_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="23dp"
+            android:layout_marginRight="23dp"
+            android:background="@drawable/red_icon"
+            android:paddingLeft="5dp"
+            android:text="0"
+            android:textColor="#000000" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relative_design"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp">
+
+
+        <ImageView
+            android:id="@+id/image_cart"
+            android:layout_width="274dp"
+            android:layout_height="249dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="26dp"
+            android:scaleType="centerCrop" />
+
+
+        <TextView
+
+            android:id="@+id/item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_above="@+id/vendor"
+            android:layout_alignEnd="@+id/vendor"
+            android:layout_alignRight="@+id/vendor"
+            android:layout_marginStart="67dp"
+            android:layout_marginLeft="67dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="21dp"
+            android:text="Item Name     :"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+
+            android:id="@+id/size_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignStart="@+id/vendor_name"
+            android:layout_alignLeft="@+id/vendor_name"
+            android:layout_alignTop="@+id/item_name"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="-5dp"
+            android:text="Panadol"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold"></TextView>
+
+
+        <TextView
+
+            android:id="@+id/vendor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="91dp"
+            android:layout_marginLeft="91dp"
+            android:layout_marginBottom="193dp"
+            android:text="Vendor            :"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+
+            android:id="@+id/vendor_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="241dp"
+            android:layout_marginLeft="241dp"
+            android:layout_marginBottom="195dp"
+            android:text="IKEA"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold"></TextView>
+
+
+        <TextView
+
+            android:id="@+id/availaibity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="91dp"
+            android:layout_marginLeft="91dp"
+            android:layout_marginBottom="148dp"
+            android:text="Availability      :"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+
+            android:id="@+id/in_stock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="243dp"
+            android:layout_marginLeft="243dp"
+            android:layout_marginBottom="147dp"
+            android:text="In Stock"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="88dp"
+            android:layout_marginLeft="88dp"
+            android:layout_marginBottom="97dp"
+            android:text="Price                :"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold"></TextView>
+
+
+        <TextView
+
+            android:id="@+id/price_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="245dp"
+            android:layout_marginLeft="245dp"
+            android:layout_marginBottom="96dp"
+            android:text="Price"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold"></TextView>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="70dp"
+            android:layout_height="32dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="-102dp"
+            android:layout_toStartOf="@+id/plusbtn"
+            android:background="#b5e6ea"
+            android:text="1"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18dp"></TextView>
+
+
+        <Button
+            android:id="@+id/plusbtn"
+            android:layout_width="34dp"
+            android:layout_height="32dp"
+
+            android:layout_alignStart="@+id/add_to_cart"
+            android:layout_alignLeft="@+id/add_to_cart"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="102dp"
+            android:layout_marginLeft="102dp"
+            android:layout_marginTop="0dp"
+            android:background="#62a0a5"
+            android:text="+"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/minubtn"
+            android:layout_width="34dp"
+            android:layout_height="32dp"
+
+            android:layout_alignEnd="@+id/add_to_cart"
+            android:layout_alignRight="@+id/add_to_cart"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="106dp"
+            android:layout_marginRight="106dp"
+            android:background="#62a0a5"
+            android:text="-"
+            android:textColor="#FFFFFF" />
+
+
+        <Button
+            android:id="@+id/add_to_cart"
+            android:layout_width="141dp"
+            android:layout_height="38dp"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6dp"
+            android:background="#62a0a5"
+            android:text="ADD TO CART"
+            android:textColor="#FFFFFF" />
+
+
+    </RelativeLayout>
+</RelativeLayout>
+

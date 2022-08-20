@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Roomly_One</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="bedroom">Bedroom</string>
+    <string name="office">Office</string>
+    <string name="store">Store</string>
+    <string name="living_room">Living Room</string>
+    <string name="visualize_in_ar">Visualize in AR</string>
+    <string name="logout">Logout</string>
+    <string name="ar_will_run_in_this_activity">AR will run in this activity.</string>
+    <string name="navigation_drawer_open" />
+    <string name="navigation_drawer_close" />
+</resources>
